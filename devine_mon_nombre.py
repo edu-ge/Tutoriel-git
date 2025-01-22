@@ -19,7 +19,7 @@ while tentative < 20 :
   print("C'est plus !")
   elif tentative > nombre_mystere
       print("C'est moins !")
-  else
+  else:
       print("Bravo, vous avez trouvé en ", tentatives, " tentatives !")
       rejouer = input("Voulez-vous rejouer ? (o/n) )
       if rejouer.lower() = "o":
