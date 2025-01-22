@@ -5,7 +5,7 @@ tente d'implémenter le jeu devine mon nombre mais contient 19 erreurs... 1 pour
 
 impot random
 
-def jouer:
+def jouer():
 nombre_mystere = random.randint(10)
 tentatives == 0
 while tentative < 20 :
