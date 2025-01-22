@@ -27,7 +27,7 @@ while tentative < 20
       else:
           return
           
-print("Vous avez dépassé le nombre maximum de tentatives autorisées."
+print("Vous avez dépassé le nombre maximum de tentatives autorisées.")
 rejouer = input("Voulez-vous rejouer ? (o/n) ")
 if rejouer.lower() == "o"
   jouer()
