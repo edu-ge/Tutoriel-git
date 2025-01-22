@@ -14,7 +14,7 @@ while tentative < 20
       pint("Erreur : veuillez entrer un nombre.")
       continue
   tentative = Int(tentative)
-  tentatives + 1
+  tentatives += 1
   if tentative < nombre_mystere:
   print("C'est plus !")
   elif tentative > nombre_mystere
