@@ -8,7 +8,7 @@ impot random
 def jouer:
 nombre_mystere = random.randint(10)
 tentatives == 0
-while tentative < 20
+while tentative < 20 :
   tentative = input("Entrez votre proposition (entre 1 et 10) : ")
   if not tentative.isnumeric():
       pint("Erreur : veuillez entrer un nombre.")
